@@ -13,7 +13,7 @@ function Navbar() {
         </ul>
         <div className="log_in">
           <button className='registro'>Registrarse</button>
-          <button className='inicio_sesion'>iniciar Sesion</button>
+          <button className='inicio_sesion'>Iniciar Sesion</button>
         </div>
       </div>
     </nav>

@@ -7,7 +7,7 @@ function Navbar() {
       <div className="navbar-content">
         <ul className="nav-list">
           <li><a href="/"><b>MANGAS</b><i>TATION</i></a></li>
-          <li><a href="/library">Bibliotecas</a></li>
+          <li><a href="/library">Biblioteca</a></li>
           <li><a href="/List">Listas</a></li>
           <li><a href="/foro">Foros</a></li>
         </ul>

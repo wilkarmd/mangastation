@@ -3,11 +3,30 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import comics from './data/comicPortrait';
+import comicView from './views/comicView';
+
+const routes = [
+  {
+    path: "/",
+    element: <App />,
+  },
+];
+
+comics.forEach((comics) => {
+  routes.push({
+    path: comics.name,
+    element: <comicView  comics={comics}/>,
+  });
+});
+
+const router = createBrowserRouter(routes);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

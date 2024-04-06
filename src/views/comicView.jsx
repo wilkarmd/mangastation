@@ -1,12 +1,15 @@
 import React from 'react'
 import comics from '../data/comicPortrait'
 
-function comicView() {
+function ComicView() {
+  
   return (
     <div>
-        <h1>aa</h1>
+      <h1>{comics.name}</h1>
+      <h2>{comics.description}</h2>
+      <img src={comics.image} alt={comics.name + " image"} />
     </div>
   )
 }
 
-export default comicView
+export default ComicView

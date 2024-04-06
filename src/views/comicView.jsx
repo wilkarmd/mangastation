@@ -1,7 +1,6 @@
 import React from 'react'
-import comics from '../data/comicPortrait'
 
-function ComicView() {
+function ComicView({comics}) {
   
   return (
     <div>

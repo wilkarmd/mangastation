@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mangastation/static/css/main.9e658284.css",
+    "main.js": "/mangastation/static/js/main.04343ea5.js",
+    "static/js/453.60f7e193.chunk.js": "/mangastation/static/js/453.60f7e193.chunk.js",
+    "index.html": "/mangastation/index.html",
+    "main.9e658284.css.map": "/mangastation/static/css/main.9e658284.css.map",
+    "main.04343ea5.js.map": "/mangastation/static/js/main.04343ea5.js.map",
+    "453.60f7e193.chunk.js.map": "/mangastation/static/js/453.60f7e193.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9e658284.css",
+    "static/js/main.04343ea5.js"
+  ]
+}
